@@ -1,0 +1,46 @@
+h1.title {
+  font-size: 3em;
+  font-family: verdana;
+  color: yellow;
+  padding: 5px;
+  padding-top: 5px;
+  margin-bottom: 0;
+  background: black;
+}
+
+body {
+	background-color: lightgray;
+}
+
+button.actionbutton {
+	background-color: yellow;
+	border-color: white;
+	border-bottom-width: 1px;
+	text-align: center;
+	display: inline-block;
+	font-size: 15px;
+	padding: 10px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+button:hover{
+	background-color: orange;
+}
+
+button.go {
+	background-color: #32CD32;
+	border-color: white;
+	border-bottom-width: 1px;
+	text-align: center;
+	display: inline-block;
+	font-size: 15px;
+	padding: 10px;
+	margin: 5px;
+	cursor: pointer;
+	width: 40%
+}
+
+button.go:hover {
+	background-color: rgb(18, 161, 18);
+}

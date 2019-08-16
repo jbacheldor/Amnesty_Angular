@@ -1,0 +1,9 @@
+ <button *ngFor = "let act of actiones"
+	[class.selected] = "act === selectedAction"
+	(click) = "onSelect(act)"
+	>
+	{{act.name}}
+  </button>
+  <mat-checkbox>Check me!</mat-checkbox>
+
+  
