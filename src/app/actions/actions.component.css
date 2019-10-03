@@ -1,4 +1,4 @@
-button {
+mat-checkbox {
 	background-color: #ffff28;
 	border-color: grey;
 	border-bottom-width: 1px;
@@ -11,12 +11,7 @@ button {
 	width: 25%;
 }
 
-button:hover{
-	background-color: #ffe228;
-	outline: 0;
-}
-
-button.selected{
+mat-checkbox.selected{
 	background-color: limegreen;
 	color: white;
 	border-color: grey;
@@ -28,6 +23,11 @@ button.selected{
 	margin: 5px;
 	cursor: pointer;
 	width: 25%;
+	outline: 0;
+}
+
+mat-checkbox:hover{
+	background-color: #ffe228;
 	outline: 0;
 }
 

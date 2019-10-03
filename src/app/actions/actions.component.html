@@ -1,9 +1,4 @@
- <button *ngFor = "let act of actiones"
-	[class.selected] = "act === selectedAction"
-	(click) = "onSelect(act)"
-	>
-	{{act.name}}
-  </button>
-
-
-  
+  <mat-checkbox *ngFor = "let act of actiones"
+  [class.selected] = "act === selectedAction"
+  (click) = "onSelect(act)" 
+  >{{act.name}}</mat-checkbox>
