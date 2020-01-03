@@ -9,6 +9,7 @@ import {Action} from '../app/action';
 })
 export class AppComponent {
   title = 'Amnesty International';
+  catchphrase = 'BY MEMBERS | FOR MEMBERS'
 
   actiones = ACTIONES;
   selectedAction: Action;

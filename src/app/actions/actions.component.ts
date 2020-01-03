@@ -25,7 +25,7 @@ export class ActionsComponent implements OnInit {
   onSelect(act: Action): void{
 	  this.selectedAction = act;
 	  this.selectedAction.check = true;
-	  this.selected = !this.selected;
+	//  this.selected = !this.selected;
   }
   
   actionClicked(act: Action): void{
