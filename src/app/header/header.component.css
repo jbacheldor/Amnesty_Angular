@@ -1,0 +1,16 @@
+mat-toolbar.header {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 30px;
+    font-family: verdana;
+    color: yellow;
+  }
+
+h3 {
+    color: white;
+    font-family: verdana;
+}

@@ -1,14 +1,14 @@
-<!--The content below is only a placeholder and can be replaced.-->
+<body>
+<div id="wrapper">
+<app-header></app-header>
+
 <div style="text-align:center">
-  <h1 class = "nav" >
-  {{ title }}
-  </h1>
   <h2>
   What topics interest you?
   </h2>
 
-
 <app-actions></app-actions>
+
 <p></p>
   <button class = "go" 	(click) = "onNext(this.actiones)">
 	Next!
@@ -16,10 +16,7 @@
 
 </div>
 
-<div style="text-align:center">
-<h1 class = "nav">
-  {{catchphrase}}
-</h1>
-</div>
-
 <router-outlet></router-outlet>
+<app-footer></app-footer>
+</div>
+</body>

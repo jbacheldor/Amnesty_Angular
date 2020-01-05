@@ -1,3 +1,7 @@
+body{
+	height: 100%
+}
+
 h1.nav {
   font-size: 3em;
   font-family: verdana;
@@ -8,8 +12,9 @@ h1.nav {
   background: black;
 }
 
-body {
-	background-color: lightgray;
+#wrapper {
+	min-height: 100%;
+	position: relative;
 }
 
 button.actionbutton {
@@ -28,6 +33,10 @@ button:hover{
 	background-color: orange;
 }
 
+app-actions{
+	flex-wrap: wrap;
+}
+
 button.go {
 	background-color: #32CD32;
 	border-color: white;
@@ -43,4 +52,11 @@ button.go {
 
 button.go:hover {
 	background-color: rgb(18, 161, 18);
+}
+
+app-footer {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
 }
