@@ -15,6 +15,9 @@ h1.nav {
 #wrapper {
 	min-height: 100%;
 	position: relative;
+	background-image: url(../assets/images/IMG_9730.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 button.actionbutton {
@@ -59,4 +62,14 @@ app-footer {
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
+}
+
+h2 {
+	font-family: verdana;
+}
+
+h2 span {
+	background-color: white;
+	font-family: verdana;
+	padding: 3px 8px 3px 8px;
 }
