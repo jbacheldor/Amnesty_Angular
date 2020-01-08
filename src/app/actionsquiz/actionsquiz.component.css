@@ -1,0 +1,67 @@
+body{
+	height: 100%
+}
+
+h1.nav {
+  font-size: 3em;
+  font-family: verdana;
+  color: yellow;
+  padding: 5px;
+  padding-top: 5px;
+  margin-bottom: 0;
+  background: black;
+}
+
+button.actionbutton {
+	background-color: yellow;
+	border-color: white;
+	border-bottom-width: 1px;
+	text-align: center;
+	display: inline-block;
+	font-size: 15px;
+	padding: 10px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+button:hover{
+	background-color: orange;
+}
+
+app-actions{
+	flex-wrap: wrap;
+}
+
+button.go {
+	background-color: #32CD32;
+	border-color: white;
+	border-bottom-width: 1px;
+	text-align: center;
+	display: inline-block;
+	font-size: 15px;
+	padding: 10px;
+	margin: 5px;
+	cursor: pointer;
+	width: 40%
+}
+
+button.go:hover {
+	background-color: rgb(18, 161, 18);
+}
+
+app-footer {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+h2 {
+	font-family: verdana;
+}
+
+h2 span {
+	background-color: white;
+	font-family: verdana;
+	padding: 3px 8px 3px 8px;
+}
