@@ -1,0 +1,13 @@
+span {
+    color: white;
+    padding: 3px 8px 3px 8px;
+    background-color: lightgray;
+}
+div {
+    font-family: verdana;
+    color: white;
+    padding: 3px 8px 3px 8px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+}

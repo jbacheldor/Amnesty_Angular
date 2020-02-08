@@ -1,4 +1,9 @@
 <mat-checkbox *ngFor = "let act of actiones"
   [class.selected] = "act === selectedAction"
   (click) = "onSelect(act)" 
->{{act.name}}</mat-checkbox> 
+>
+<div>
+<img src ="/../../assets/images/armed-conflict.png"/>
+</div>
+{{act.name}}
+</mat-checkbox> 

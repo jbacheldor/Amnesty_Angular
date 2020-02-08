@@ -29,10 +29,7 @@ export class ActionsComponent implements OnInit {
   }
   
   actionClicked(act: Action): void{
-	  //document.getElementById("actionbutton").style = document.getElementById("select").style;
+	  
   }
-  //on select function
-  //when button is selected
-  //add it to an array to display once go occurs
 
 }

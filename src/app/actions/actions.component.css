@@ -1,5 +1,5 @@
 mat-checkbox {
-	position: relative;
+
 	background-color: #ffff28;
 	border-color: grey;
 	border-bottom-width: 1px;
@@ -44,3 +44,7 @@ mat-checkbox:hover{
 	outline: 0;
 }
 
+img{
+	width: 20%;
+	height: 20%;
+}

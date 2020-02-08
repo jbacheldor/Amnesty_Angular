@@ -15,6 +15,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ActionsquizComponent } from './actionsquiz/actionsquiz.component';
+import { ErrorPageComponent } from './error-page/error-page.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { ActionsquizComponent } from './actionsquiz/actionsquiz.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    ActionsquizComponent
+    ActionsquizComponent,
+    ErrorPageComponent
   ],
   imports: [
     BrowserModule,
