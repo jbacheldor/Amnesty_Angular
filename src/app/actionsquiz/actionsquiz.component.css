@@ -61,7 +61,8 @@ h2 {
 }
 
 h2 span {
-	background-color: white;
+	background-color: black;
+	color: white;
 	font-family: verdana;
 	padding: 3px 8px 3px 8px;
 }

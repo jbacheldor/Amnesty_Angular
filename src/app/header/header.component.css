@@ -1,8 +1,12 @@
 mat-toolbar.header {
     display: flex;
     flex-direction: row;
-    background-color: black;
+    background-color: white;
     justify-content: space-between;
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+    padding: 0 0px;
 }
 h1 {
     font-size: 30px;
@@ -11,6 +15,15 @@ h1 {
   }
 
 h3 {
-    color: white;
+    color: black;
     font-family: verdana;
+}
+
+img {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-self: flex-start;
+    width: 160px;
+    height: 64px;
 }

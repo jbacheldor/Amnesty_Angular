@@ -1,5 +1,4 @@
 mat-checkbox {
-
 	background-color: #ffff28;
 	border-color: grey;
 	border-bottom-width: 1px;
@@ -9,7 +8,7 @@ mat-checkbox {
 	padding: 10px;
 	margin: 5px;
 	cursor: pointer;
-	width: 25%;
+	width: 20%;
 }
 
 mat-checkbox.mat-checkbox-checked{
@@ -22,7 +21,6 @@ mat-checkbox.mat-checkbox-checked{
 	padding: 10px;
 	margin: 5px;
 	cursor: pointer;
-	width: 25%;
 	outline: 0;
 }
 
@@ -35,7 +33,6 @@ mat-checkbox.selected{
 	padding: 10px;
 	margin: 5px;
 	cursor: pointer;
-	width: 25%;
 	outline: 0;
 }
 
