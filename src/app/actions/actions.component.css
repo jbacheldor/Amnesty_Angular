@@ -45,3 +45,12 @@ img{
 	width: 20%;
 	height: 20%;
 }
+
+#central-actions {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-left: 10%;
+	padding-right: 10%;
+
+}

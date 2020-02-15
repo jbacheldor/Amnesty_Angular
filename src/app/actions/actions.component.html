@@ -1,3 +1,4 @@
+<div id="central-actions">
 <mat-checkbox *ngFor = "let act of actiones"
   [class.selected] = "act === selectedAction"
   (click) = "onSelect(act)" 
@@ -7,3 +8,4 @@
 </div>
 {{act.name}}
 </mat-checkbox> 
+</div>
